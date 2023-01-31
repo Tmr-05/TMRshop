@@ -1,4 +1,85 @@
-                                 Apache License
+                                <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Online Store</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Online Store</h1>
+      <nav>
+        <ul>
+          <li><a href="#featured-products">Featured Products</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="featured-products">
+        <h2>Featured Products</h2>
+        <ul class="products">
+          <li>
+            <img src="product-1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$50</p>
+            <button>Add to Cart</button>
+          </li>
+          <li>
+            <img src="product-2.jpg" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>$75</p>
+            <button>Add to Cart</button>
+          </li>
+          <li>
+            <img src="product-3.jpg" alt="Product 3">
+            <h3>Product 3</h3>
+            <p>$100</p>
+            <button>Add to Cart</button>
+          </li>
+        </ul>
+      </section>
+      <section id="about-us">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna non tempor blandit, justo nulla congue metus, euismod auctor sapien libero non ligula.</p>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; My Online Store 2023</p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  /* add neon color styles to the body */
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  /* add neon color to header and navigation links */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: hs
+                                
+                                Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
